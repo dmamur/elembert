@@ -1,2 +1,2 @@
 # elementsem
-deep learning model for chemical tasks
+deep learning model for chemical datasets
