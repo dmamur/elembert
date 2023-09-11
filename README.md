@@ -1,3 +1,4 @@
 # elementsem
 deep learning model for chemical datasets
-![Fig2_elembert](https://github.com/dmamur/elementsem/assets/129986239/d800e97e-fb57-406a-b6ae-1acb64a3b885)
+![Picture1](https://github.com/dmamur/elementsem/assets/60742014/5e7857d8-7175-423d-b2a1-5ea124214d95)
+
