@@ -7,8 +7,8 @@ The 'Notebooks' folder contains examples of Jupyter notebooks for model V0, incl
 
 The 'Models' folder contains PCA-KMeans models and dictionary files.
 
-elembert_classification.ipynb: This is a general file for all datasets. By changing the dataset name, it is possible to perform classification training. The BERT module code is taken from https://keras.io/examples/nlp/masked_language_modeling/.
+- elembert_classification.ipynb: This is a general file for all datasets. By changing the dataset name, it is possible to perform classification training. The BERT module code is taken from https://keras.io/examples/nlp/masked_language_modeling/.
 
-elembert_classification_matbench.ipynb: This notebook performs classification of the matbench dataset.
+- elembert_classification_matbench.ipynb: This notebook performs classification of the matbench dataset.
 
-element_classifier.ipynb: An example of how subelements can be calculated from PCA-KMeans models.
+- element_classifier.ipynb: An example of how subelements can be calculated from PCA-KMeans models.
