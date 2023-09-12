@@ -41,7 +41,7 @@ ROC-AUC performances of various models on the SIDER dataset. Meta-MGNN denotes t
 |Meta-MGNN|0.754|0.693|0.723|0.744|0.817|0.741|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|0.747|
 
 ROC-AUC performances of 12 tasks from the Tox21 dataset.
-Model|nr-ahr|nr-ar-lbd|nr-arom|nr-ar|nr-er-lbd|nr-er|nr-ppar-g|sr-are|sr-atad5|sr-hse|sr-mmp|sr-p53|Ave|
+Model|nr-ahr|nr-ar-lbd|nr-arom|nr-ar|nr-er-lbd|nr-er|nr-ppar-g|sr-are|sr-atad5|sr-hse|sr-mmp|sr-p53|Average|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |V0|0.947|0.987|0.973|0.982|0.972|0.924|0.991|0.908|0.982|0.975|0.935|0.97|0.961|
 |V1|0.953|0.981|0.972|0.982|0.976|0.93|0.989|0.911|0.984|0.976|0.941|0.97|0.958|
