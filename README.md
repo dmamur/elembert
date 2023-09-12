@@ -18,7 +18,7 @@ The main three notebooks are presented on the main page:
 
 ## Perfomance
 The table displays the ROC-AUC performance of two model versions applied to the datasets listed. Bold font indicates the best performance, and the last column showcases previous results obtained from other models. elEmBERT-V0 denotes models that utilize chemical element embeddings, while elEmBERT-V1 employs subelement embeddings as input for the BERT module.
-
+In both models, we have used an embedding size of 32, 2 layers, and 2 heads.
 |Benchmark	|elEmBERT-V0        |elEmBERT-V1   | Previous best   |
 |--- |---|--- |---|
 |Matbench	|0.961 ± 0.001	|***0.965 ± 0.001***| 0.950 $^{AtomSets}$|
