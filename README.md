@@ -1,6 +1,7 @@
 # elementsem
 Deep learning model for tasks related to chemical classification.
-![Picture1](https://github.com/dmamur/elementsem/assets/60742014/5e7857d8-7175-423d-b2a1-5ea124214d95)
+![Picture1](https://github.com/dmamur/elementsem/assets/60742014/c3158120-d6cf-4bb7-9b95-dcacfe4e97eb)
+
 The 'data' folder contains .csv files already converted to the input data format, which helps save computational resources.
 
 The 'Notebooks' folder contains examples of Jupyter notebooks for model V0, including data downloaded directly from the benchmark page before training.
