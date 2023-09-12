@@ -1,6 +1,7 @@
 # elementsem
 Deep learning model for tasks related to chemical classification.
-![Picture1](https://github.com/dmamur/elementsem/assets/60742014/c3158120-d6cf-4bb7-9b95-dcacfe4e97eb)
+![Picture1](https://github.com/dmamur/elementsem/assets/60742014/c807b5ff-187d-4514-a360-4ddcc5f2fd26)
+
 
 The 'data' folder contains .csv files already converted to the input data format, which helps save computational resources.
 
