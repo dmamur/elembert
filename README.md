@@ -1,4 +1,4 @@
-# elEmBERT - element Embedding and Bidirectional Encoder Representations from Transformers
+# elEmBERT - element Embeddings and Bidirectional Encoder Representations from Transformers
 Deep learning model for tasks related to chemical classification.
 ![Picture1](https://github.com/dmamur/elementsem/assets/60742014/c807b5ff-187d-4514-a360-4ddcc5f2fd26)
 
@@ -16,7 +16,7 @@ The main three notebooks are presented on the main page:
 
 - element_classifier.ipynb: An example of how subelements can be calculated from PCA-KMeans models.
 
-## Prediction scores
+## Perfomance
 
 |Benchmark	|V0	            |V1           | Previous best   |
 |--- |---|--- |---|
