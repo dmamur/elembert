@@ -48,7 +48,8 @@ Model|nr-ahr|nr-ar-lbd|nr-arom|nr-ar|nr-er-lbd|nr-er|nr-ppar-g|sr-are|sr-atad5|s
 |Meta-MGNN|-|-|-|-|-|-|-|-|-|0.748|0.804|0.79|0.781|
 
 
-The figures below illustrate the confusion matrix in (a), showcasing the performance of the elEmBERT-V1 model in classifying the MP metallicity (picture above) task and the SR-MMP task from the Tox21 dataset (picture below). The t-SNE plot in (b) displays the embeddings of the entire reference dataset, categorized by labels, revealing a smooth differentiation among labels within the feature space. Figure (c) demonstrates how our model classifies the reference dataset.
+The figures below illustrate the confusion matrix in (a), shows the performance of the elEmBERT-V1 model in classifying the MP metallicity task and the SR-MMP task from the Tox21 dataset. The t-SNE plot in (b) displays the embeddings of the entire reference dataset, categorized by labels (is metal or not, toxic or not), revealing a smooth differentiation among labels within the feature space. Figure (c) demonstrates how our model classifies the reference dataset.
+
 ![PictureGithub1](https://github.com/dmamur/elementsem/assets/60742014/1d4de4b0-464b-4d12-b145-1698f9df6d64)
 
 ![PictureGithub2](https://github.com/dmamur/elementsem/assets/60742014/e900f37b-54f0-4a29-b1db-4ee124711d61)
