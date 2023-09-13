@@ -1,6 +1,6 @@
 # elEmBERT - element Embeddings and Bidirectional Encoder Representations from Transformers
 
-This repository presents deep learning models for chemical analysis. These models use atomic pair distribution functions (PDF) and atom types (elements) as input data. 
+This repository presents deep learning models for chemical classification tasks. These models use atomic pair distribution functions (PDF) and atom types (elements) as input data. 
 In the initial stage, element embedding vectors are constructed by converting elements into tokens. These encoded inputs are then passed to the BERT module, thereby establishing a comprehensive framework for chemical analysis. The BERT module could be constructed from various combinations of embedding sizes, encoder-decoder layers, and attention heads. Schematic Illustration of the elEmBERT-V0 model presented below: 
 
 ![ModelV0](https://github.com/dmamur/elementsem/assets/60742014/69492ddd-2dc0-492e-9090-e46380e578b5)
