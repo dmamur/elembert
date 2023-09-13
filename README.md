@@ -41,7 +41,7 @@ In both models, we have used an embedding size of 32, 2 layers, and 2 attention 
 |TOX21|***0.961 ± 0.006***	|0.958 ± 0.007| 0.860 $^{TrimNET }$|
 
 
-ROC-AUC performances of various models on the SIDER dataset. Meta-MGNN denotes the prior top-performing results. 
+ROC-AUC performances of 27 tasks from the SIDER dataset. Meta-MGNN denotes the prior top-performing results. 
 |SIDER N|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|Average|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |V0|0.626|0.756|0.972|0.735|0.843|0.736|0.958|0.846|0.775|0.712|0.748|0.93|0.802|0.859|0.841|0.675|0.898|0.812|0.792|0.761|0.843|0.75|0.909|0.669|0.758|0.952|0.798|0.778|
