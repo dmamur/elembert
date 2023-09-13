@@ -1,5 +1,6 @@
 # elEmBERT - element Embeddings and Bidirectional Encoder Representations from Transformers
 Deep learning model for tasks related to chemical classification.
+
 Schematic Illustration of the elEmBERT-V0 Model:
 
 ![ModelV0](https://github.com/dmamur/elementsem/assets/60742014/69492ddd-2dc0-492e-9090-e46380e578b5)
