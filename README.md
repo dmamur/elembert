@@ -26,19 +26,19 @@ The main three notebooks are presented on the main page:
 
 ## Perfomance
 The table presents the ROC-AUC performance of two model versions applied to the datasets listed. Bold font indicates the best performance, and the last column shows previous results obtained from other models. elEmBERT-V0 denotes models that utilize chemical element embeddings, while elEmBERT-V1 employs subelement embeddings as input for the BERT module.
-In both models, we have used an embedding size of 32, 2 layers, and 2 heads.
-|Benchmark	|elEmBERT-V0        |elEmBERT-V1   | Previous best   |
+In both models, we have used an embedding size of 32, 2 layers, and 2 attention heads.
+|Benchmark|elEmBERT-V0 |elEmBERT-V1| Previous best   |
 |--- |---|--- |---|
-|Matbench: is_metal	|0.961 ± 0.001	|***0.965 ± 0.001***| 0.950 $^{AtomSets}$|
-|SG			|0.944 ± 0.003	|0.968 ± 0.002|***1***       $^{CegaNN  }$|
-|LA			|0.475 ± 0.014	|0.980 ± 0.003| ***1***       $^{CegaNN  }$|
-|DIM		|0.893 ± 0.013	|0.958 ± 0.003| ***1***       $^{CegaNN  }$|
-|BACE		|0.827 ± 0.005	|0.856 ± 0.010| ***0.88***8 $^{GLAM    }$|
-|BBBP		|0.900 ± 0.020	|0.905 ± 0.025| ***0.932*** $^{GLAM    }$|
-|CLINTOX	|0.945 ± 0.011	|***0.951 ± 0.016***| 0.948 $^{TrimNET }$|
-|HIV		|0.978 ± 0.002	|***0.979 ± 0.003***| 0.776 $^{GMT     }$|
-|SIDER		|***0.778 ± 0.032***	|0.777 ± 0.028| 0.659 $^{GLAM    }$|
-|TOX21		|***0.961 ± 0.006***	|0.958 ± 0.007| 0.860 $^{TrimNET }$|
+|Matbench: is_metal|0.961 ± 0.001	|***0.965 ± 0.001***| 0.950 $^{AtomSets}$|
+|Spacegroup|0.944 ± 0.003	|0.968 ± 0.002|***1***       $^{CegaNN  }$|
+|Liquid-Amorphous|0.475 ± 0.014	|0.980 ± 0.003| ***1***       $^{CegaNN  }$|
+|Dimensionality|0.893 ± 0.013	|0.958 ± 0.003| ***1***       $^{CegaNN  }$|
+|BACE|0.827 ± 0.005	|0.856 ± 0.010| ***0.88***8 $^{GLAM    }$|
+|BBBP|0.900 ± 0.020	|0.905 ± 0.025| ***0.932*** $^{GLAM    }$|
+|CLINTOX|0.945 ± 0.011	|***0.951 ± 0.016***| 0.948 $^{TrimNET }$|
+|HIV|0.978 ± 0.002	|***0.979 ± 0.003***| 0.776 $^{GMT     }$|
+|SIDER|***0.778 ± 0.032***	|0.777 ± 0.028| 0.659 $^{GLAM    }$|
+|TOX21|***0.961 ± 0.006***	|0.958 ± 0.007| 0.860 $^{TrimNET }$|
 
 
 ROC-AUC performances of various models on the SIDER dataset. Meta-MGNN denotes the prior top-performing results. 
