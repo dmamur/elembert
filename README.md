@@ -1,13 +1,13 @@
 # elEmBERT - element Embeddings and Bidirectional Encoder Representations from Transformers
-Deep learning model for tasks related to chemical classification.
 
-Schematic Illustration of the elEmBERT-V0 Model:
+This repository presents deep learning models for chemical analysis. These models use atomic pair distribution functions (PDF) and atom types (elements) as input data. 
+In the initial stage, element embedding vectors are constructed by converting elements into tokens. These encoded inputs are then passed to the BERT module, thereby establishing a comprehensive framework for chemical analysis. Schematic Illustration of the elEmBERT-V0 model presented below: 
 
 ![ModelV0](https://github.com/dmamur/elementsem/assets/60742014/69492ddd-2dc0-492e-9090-e46380e578b5)
 
 
+elEmBERT-V0 solely relies on compound composition, whereas elEmBERT-V1 generates tokens by separating (classifying) elements into subelements based on PDF information. This separation process is facilitated by PCA and K-means algorithms. As a result, we have expanded our vocabulary size from 101 to 565, along with the corresponding increase in model parameters. This expansion enables us to accommodate an additional model, elEmBERT-V1:
 
-Schematic Illustration of the elEmBERT-V1 Model:
 ![Picture1](https://github.com/dmamur/elementsem/assets/60742014/c807b5ff-187d-4514-a360-4ddcc5f2fd26)
 
 
@@ -22,7 +22,7 @@ The main three notebooks are presented on the main page:
 
 - elembert_classification_matbench.ipynb: This notebook performs classification of the matbench dataset.
 
-- element_classifier.ipynb: An example of how subelements can be calculated from PCA-KMeans models.
+- element_classifier.ipynb: An example of how subelements can be calculated from PCA-KMeans models. PCA inputs - PDFs are calculated using the ASE library. 
 
 ## Perfomance
 The table presents the ROC-AUC performance of two model versions applied to the datasets listed. Bold font indicates the best performance, and the last column shows previous results obtained from other models. elEmBERT-V0 denotes models that utilize chemical element embeddings, while elEmBERT-V1 employs subelement embeddings as input for the BERT module.
