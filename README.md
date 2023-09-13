@@ -6,7 +6,7 @@ In the initial stage, element embedding vectors are constructed by converting el
 ![ModelV0](https://github.com/dmamur/elementsem/assets/60742014/69492ddd-2dc0-492e-9090-e46380e578b5)
 
 
-elEmBERT-V0 solely relies on compound composition, whereas elEmBERT-V1 generates tokens by separating (classifying) elements into subelements based on PDF information. This separation process is facilitated by PCA and K-means algorithms. As a result, we have expanded our vocabulary size from 101 to 565, along with the corresponding increase in model parameters. This expansion enables us to accommodate an additional model, elEmBERT-V1:
+elEmBERT-V0 solely relies on compound composition, whereas elEmBERT-V1 generates tokens by separating (classifying) elements into subelements based on PDF information. This separation process is facilitated by PCA and K-means algorithms. As a result, we have expanded our vocabulary size from 101 to 565, along with the corresponding increase in model parameters. This expansion enables us to build another, more efficient, but resource-intensive model - elEmBERT-V1:
 
 ![Picture1](https://github.com/dmamur/elementsem/assets/60742014/c807b5ff-187d-4514-a360-4ddcc5f2fd26)
 
