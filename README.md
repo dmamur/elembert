@@ -29,7 +29,7 @@ The table presents the ROC-AUC performance of two model versions applied to the 
 In both models, we have used an embedding size of 32, 2 layers, and 2 heads.
 |Benchmark	|elEmBERT-V0        |elEmBERT-V1   | Previous best   |
 |--- |---|--- |---|
-|Matbench	|0.961 ± 0.001	|***0.965 ± 0.001***| 0.950 $^{AtomSets}$|
+|Matbench: is_metal	|0.961 ± 0.001	|***0.965 ± 0.001***| 0.950 $^{AtomSets}$|
 |SG			|0.944 ± 0.003	|0.968 ± 0.002|***1***       $^{CegaNN  }$|
 |LA			|0.475 ± 0.014	|0.980 ± 0.003| ***1***       $^{CegaNN  }$|
 |DIM		|0.893 ± 0.013	|0.958 ± 0.003| ***1***       $^{CegaNN  }$|
