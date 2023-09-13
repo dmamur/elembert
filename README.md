@@ -22,7 +22,7 @@ The main three notebooks are presented on the main page:
 
 - elembert_classification_matbench.ipynb: This notebook performs classification of the matbench dataset.
 
-- element_classifier.ipynb: An example of how subelements can be calculated from PCA-KMeans models. PCA inputs - PDFs are calculated using the ASE library. 
+- element_classifier.ipynb: An example of how subelements can be calculated from PCA-KMeans models. PCA inputs - PDFs - are calculated using the ASE library. 
 
 ## Perfomance
 The table presents the ROC-AUC performance of two model versions applied to the datasets listed. Bold font indicates the best performance, and the last column shows previous results obtained from other models. elEmBERT-V0 denotes models that utilize chemical element embeddings, while elEmBERT-V1 employs subelement embeddings as input for the BERT module.
