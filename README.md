@@ -63,11 +63,17 @@ The figures below illustrate the confusion matrix in (a), shows the performance 
 ![PictureGithub2](https://github.com/dmamur/elementsem/assets/60742014/e900f37b-54f0-4a29-b1db-4ee124711d61)
 
 
-
-
-
-
-
+Further information concerning the development of elEmBERT can be found in our [publication](https://arxiv.org/abs/2309.09355):
+```
+@misc{shermukhamedov2023structure,
+      title={Structure to Property: Chemical Element Embeddings and a Deep Learning Approach for Accurate Prediction of Chemical Properties}, 
+      author={Shokirbek Shermukhamedov and Dilorom Mamurjonova and Michael Probst},
+      year={2023},
+      eprint={2309.09355},
+      archivePrefix={arXiv},
+      primaryClass={physics.chem-ph}
+}
+```
 
 
 
