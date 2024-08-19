@@ -6,23 +6,24 @@ In the initial stage, element embedding vectors are constructed by converting el
 ![ModelV0](https://github.com/dmamur/elementsem/assets/60742014/69492ddd-2dc0-492e-9090-e46380e578b5)
 
 
-elEmBERT-V0 solely relies on compound composition, whereas elEmBERT-V1 generates tokens by separating (classifying) elements into subelements based on PDF information. This separation process is facilitated by PCA and K-means algorithms. As a result, we have expanded our vocabulary size from 101 to 565, along with the corresponding increase in model parameters. This expansion enables us to build another, more efficient, but resource-intensive model - elEmBERT-V1:
+elEmBERT-V0 solely relies on compound composition, whereas elEmBERT-V1 generates tokens by separating (classifying) elements into sub-elements based on PDF information. This separation process is facilitated by K-means algorithm. As a result, we have expanded our vocabulary size from 101 to 565, along with the corresponding increase in model parameters. This expansion enables us to build another, more efficient, but resource-intensive model - elEmBERT-V1:
 
-![Picture1](https://github.com/dmamur/elementsem/assets/60742014/c807b5ff-187d-4514-a360-4ddcc5f2fd26)
+![Figure_1](https://github.com/user-attachments/assets/142f48cf-1e15-4d9b-a57a-552927488133)
+
 
 
 The 'data' folder contains .csv files already converted to the input data format, which helps save computational resources.
 
 The 'Notebooks' folder contains examples of Jupyter notebooks for model V0, including data downloaded directly from the benchmark page before training.
 
-The 'Models' folder contains PCA-KMeans models and dictionary files.
+The 'Models' folder contains K-means models and dictionary files.
 
 The main three notebooks are presented on the main page:
 - elembert_classification.ipynb: This is a general file for all datasets. By changing the dataset name, it is possible to perform classification training. The BERT module code is taken from https://keras.io/examples/nlp/masked_language_modeling/.
 
 - elembert_classification_matbench.ipynb: This notebook performs classification of the matbench dataset.
 
-- element_classifier.ipynb: An example of how subelements can be calculated from PCA-KMeans models. PCA inputs - PDFs - are calculated using the ASE library. 
+- element_classifier.ipynb: An example of how subelements can be calculated from k-means models. Inputs - PDFs - are calculated using the ASE library. 
 
 ## Perfomance
 The table presents the ROC-AUC performance of two model versions applied to the datasets listed. The first four datasets are classification tasks of inorganic compunds, the remaining tasks involve organic molecules. Bold font indicates the best performance, and the last column shows previous results obtained from other models. elEmBERT-V0 denotes models that utilize chemical element embeddings, while elEmBERT-V1 employs subelement embeddings as input for the BERT module.
