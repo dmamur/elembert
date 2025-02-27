@@ -42,17 +42,6 @@ In both models, we have used an embedding size of 32, 2 layers, and 2 attention 
 |TOX21|0.965	|***0.967***| 0.860 $^{TrimNET }$|
 
 
-MP metallicity &  \underline{0.961} & \textbf{0.965}  & 0.950 \cite{Chen2021AtomSets} \\
-SG & 0.945  & \underline{0.952} & \textbf{1.000} \cite{Banik2023CEGANN}\\
-LA & 0.500  & \underline{0.983}  & \textbf{1.000} \cite{Banik2023CEGANN}\\
-DIM & 0.866  & \underline{0.958}  & \textbf{1.000} \cite{Banik2023CEGANN}\\
-BACE & 0.732  & \underline{0.789}  & \textbf{0.888} \cite{Li2022GLAM}\\
-BBBP & 0.903  & \underline{0.909} & \textbf{0.932} \cite{Li2022GLAM}\\
-ClinTox & \textbf{0.962}  & \underline{0.959}  & 0.948 \cite{{Li2021TrimNet}}\\
-HIV & \textbf{0.982}  & \underline{0.972} & 0.776 \cite{Baek2021Accurate}\\
-SIDER & \textbf{0.778} & \underline{0.773}  & 0.659 \cite{Li2022GLAM}\\
-Tox21 & \underline{0.965}  & \textbf{0.967} & 0.860 \cite{{Li2021TrimNet}}\\
-
 ROC-AUC performances of 27 tasks from the SIDER dataset. Meta-MGNN denotes the prior top-performing results. 
 |SIDER N|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|Average|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
