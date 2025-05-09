@@ -28,7 +28,7 @@ The main three notebooks are presented on the main page:
 ## Perfomance
 The table presents the ROC-AUC performance of two model versions applied to the datasets listed. The first four datasets are classification tasks of inorganic compunds, the remaining tasks involve organic molecules. Bold font indicates the best performance, and the last column shows previous results obtained from other models. elEmBERT-V0 denotes models that utilize chemical element embeddings, while elEmBERT-V1 employs subelement embeddings as input for the BERT module.
 In both models, we have used an embedding size of 32, 2 layers, and 2 attention heads.
-|Benchmark|elEmBERT-V0 |elEmBERT-V1| Previous best   |
+|Benchmark|elEmBERT-V0 |elEmBERT-V1| Best published so far   |
 |--- |---|--- |---|
 |Matbench: is_metal|0.961 |***0.965***| 0.950 $^{AtomSets}$|
 |Spacegroup|0.945 |0.952 |***1***       $^{CegaNN  }$|
